@@ -247,12 +247,20 @@ typedef NS_ENUM(NSInteger, lmcInstructions) {
 
 - (void)input
 {
-    
+    if ([self.delegate respondsToSelector:@selector(getInput)]) {
+        NSInteger userInputInteger = (NSInteger)[self.delegate performSelector:@selector(getInput)];
+        NSNumber *userInputNumber = [NSNumber numberWithInteger:userInputInteger];
+        if ([[self class] isValidNumberValue:userInputNumber]) {
+            self.acc = userInputInteger;
+        }
+    }
 }
 
 - (void)output
 {
-    
+    if ([self.delegate respondsToSelector:@selector(putOutput:)]) {
+        [self.delegate performSelector:@selector(putOutput:) withObject:[NSNumber numberWithInteger:self.acc]];
+    }
 }
 
 @end

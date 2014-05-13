@@ -8,6 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+@interface NSObject (LittleManComputerDelegate)
+- (NSInteger)getInput;
+- (void)putOutput:(NSInteger)value;
+- (void)panic:(NSString *)reason;
+@end
+
+
 @interface LittleManComputer : NSObject
 
 @property (readonly) NSArray *memory;
@@ -16,6 +23,8 @@
 @property NSUInteger cir;
 @property NSInteger acc;
 @property (readonly, getter = isRunning) BOOL running;
+@property (weak) id delegate;
+
 
 - (BOOL)setValue:(NSInteger)value atMemoryLocation:(NSUInteger)location;
 - (BOOL)setValues:(NSArray *)values startingAtMemoryLocation:(NSUInteger)location;

@@ -16,6 +16,7 @@
     self = [super init];
     if (self) {
         _lmc = [[LittleManComputer alloc] initWithData:@[@10,@20]];
+        _lmc.delegate = self;
     }
     return self;
 }
@@ -75,5 +76,19 @@
     return self.lmc.size;
 }
 
+- (NSInteger)getInput
+{
+    return 0;
+}
+
+- (void)putOutput:(NSInteger)value
+{
+    NSLog(@"Output: %ld", (long)value);
+}
+
+- (void)panic:(NSString *)reason
+{
+    NSLog(@"PANIC: %@", reason);
+}
 
 @end

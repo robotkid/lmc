@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface NSObject (LittleManComputerDelegate)
-- (NSInteger)getInput;
+- (void)getInput;
 - (void)putOutput:(NSNumber *)value;
 - (void)panic:(NSString *)reason;
 @end
@@ -33,5 +33,6 @@
 - (void)step;
 - (void)reset;
 - (void)clearMemory;
+- (void)returnInput:(NSInteger)value;
 
 @end

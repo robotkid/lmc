@@ -12,6 +12,7 @@
 @interface LittleManComputer ()
 @property (readwrite) NSMutableArray *mem;
 @property (readwrite) BOOL running;
+@property BOOL waitingForInput;
 @end
 
 #define LMC_MEM_SIZE 100
@@ -82,6 +83,7 @@ typedef NS_ENUM(NSInteger, lmcInstructions) {
         _acc = 0;
         _cir = [_mem[0] integerValue];
         _running = YES;
+        _waitingForInput = NO;
     }
     return self;
 }
@@ -191,7 +193,7 @@ typedef NS_ENUM(NSInteger, lmcInstructions) {
 {
     self.pc = 0;
     self.acc = 0;
-    self.cir = 0;
+    [self updateCIR];
     self.running = YES;
 }
 
@@ -249,11 +251,8 @@ typedef NS_ENUM(NSInteger, lmcInstructions) {
 - (void)input
 {
     if ([self.delegate respondsToSelector:@selector(getInput)]) {
-        NSInteger userInputInteger = (NSInteger)[self.delegate performSelector:@selector(getInput)];
-        NSNumber *userInputNumber = [NSNumber numberWithInteger:userInputInteger];
-        if ([[self class] isValidNumberValue:userInputNumber]) {
-            self.acc = userInputInteger;
-        }
+        [self.delegate performSelector:@selector(getInput)];
+        self.waitingForInput = YES;
     }
 }
 
@@ -262,6 +261,18 @@ typedef NS_ENUM(NSInteger, lmcInstructions) {
     if ([self.delegate respondsToSelector:@selector(putOutput:)]) {
         [self.delegate performSelector:@selector(putOutput:) withObject:[NSNumber numberWithInteger:self.acc]];
     }
+}
+
+- (void)returnInput:(NSInteger)value
+{
+    NSNumber *userInputNumber = [NSNumber numberWithInteger:value];
+    if ([[self class] isValidNumberValue:userInputNumber]) {
+        self.acc = value;
+    }
+    else {
+        self.acc = 0;
+    }
+    self.waitingForInput = NO;
 }
 
 @end

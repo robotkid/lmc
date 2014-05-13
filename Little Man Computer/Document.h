@@ -14,8 +14,12 @@
 
 @property LittleManComputer *lmc;
 @property (weak) IBOutlet NSTableView *tableView;
+@property (strong) IBOutlet NSPanel *inputSheet;
+@property (weak) IBOutlet NSTextField *inputField;
 
 - (IBAction)step:(id)sender;
 - (IBAction)reset:(id)sender;
 - (IBAction)editedField:(NSTextField *)sender;
+- (IBAction)closeInputSheet:(id)sender;
+- (IBAction)openInputSheet:(id)sender;
 @end

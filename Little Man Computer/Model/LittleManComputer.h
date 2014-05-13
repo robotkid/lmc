@@ -15,6 +15,7 @@
 @property NSUInteger pc;
 @property NSUInteger cir;
 @property NSInteger acc;
+@property (readonly, getter = isRunning) BOOL running;
 
 - (BOOL)setValue:(NSInteger)value atMemoryLocation:(NSUInteger)location;
 - (BOOL)setValues:(NSArray *)values startingAtMemoryLocation:(NSUInteger)location;

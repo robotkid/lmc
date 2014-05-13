@@ -11,9 +11,10 @@
 
 @interface LittleManComputer ()
 @property (readwrite) NSMutableArray *mem;
+@property (readwrite) BOOL running;
 @end
 
-#define MIN_MEM_SIZE 100
+#define LMC_MEM_SIZE 100
 #define MIN_LMC_VALUE -999
 #define MAX_LMC_VALUE 999
 
@@ -70,16 +71,17 @@ typedef NS_ENUM(NSInteger, lmcInstructions) {
 {
     self = [super init];
     if (self) {
-        _mem = [NSMutableArray arrayWithCapacity:MIN_MEM_SIZE];
+        _mem = [NSMutableArray arrayWithCapacity:LMC_MEM_SIZE];
         for (id val in values) {
             [_mem addObject:[[self class] numberFromObject:val]];
         }
-        for (NSUInteger i = [values count]; i < MIN_MEM_SIZE; i++) {
+        for (NSUInteger i = [values count]; i < LMC_MEM_SIZE; i++) {
             [_mem addObject:@0];
         }
         _pc = 0;
         _acc = 0;
         _cir = [_mem[0] integerValue];
+        _running = YES;
     }
     return self;
 }
@@ -159,16 +161,28 @@ typedef NS_ENUM(NSInteger, lmcInstructions) {
         case lmcInstructionBrp:
             [self branchIfZeroOrPositive:args];
             break;
-        case lmcInstructionBra:
-            [self branchAlways:args];
-            break;
-        case lmcInstructionBra:
-            [self branchAlways:args];
-            break;
+        case lmcInstructionHlt:
+            self.running = NO;
+        case lmcInstructionIO:
+            if (opcode == lmcInstructionInp) {
+                [self input];
+                break;
+            }
+            else if (opcode == lmcInstructionOut) {
+                [self output];
+                break;
+            }
         default:
+            NSLog(@"Invalid Opcode");
+            self.running = NO;
             break;
     }
-    self.pc++;
+    if (self.pc < LMC_MEM_SIZE) {
+        self.pc++;
+        [self updateCIR];
+    }
+    else
+        self.running = NO;
 }
 
 
@@ -177,6 +191,7 @@ typedef NS_ENUM(NSInteger, lmcInstructions) {
     self.pc = 0;
     self.acc = 0;
     self.cir = 0;
+    self.running = YES;
 }
 
 - (void)clearMemory
@@ -230,5 +245,14 @@ typedef NS_ENUM(NSInteger, lmcInstructions) {
     }
 }
 
+- (void)input
+{
+    
+}
+
+- (void)output
+{
+    
+}
 
 @end

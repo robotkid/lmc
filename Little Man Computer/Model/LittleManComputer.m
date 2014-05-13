@@ -163,6 +163,7 @@ typedef NS_ENUM(NSInteger, lmcInstructions) {
             break;
         case lmcInstructionHlt:
             self.running = NO;
+            break;
         case lmcInstructionIO:
             if (self.cir == lmcInstructionInp) {
                 [self input];
@@ -177,7 +178,7 @@ typedef NS_ENUM(NSInteger, lmcInstructions) {
             self.running = NO;
             break;
     }
-    if (self.pc < LMC_MEM_SIZE) {
+    if (self.pc < LMC_MEM_SIZE && self.running) {
         self.pc++;
         [self updateCIR];
     }

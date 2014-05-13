@@ -9,6 +9,11 @@
 #import "Document.h"
 #import "LittleManComputer.h"
 
+@interface Document ()
+@property NSInteger inputNumber;
+@end
+
+
 @implementation Document
 
 - (id)init
@@ -76,9 +81,9 @@
     return self.lmc.size;
 }
 
-- (NSInteger)getInput
+- (void)getInput
 {
-    return 5;
+    [self openInputSheet:self];
 }
 
 - (void)putOutput:(NSNumber *)value
@@ -105,6 +110,17 @@
     NSInteger row = [self.tableView selectedRow];
     [self.lmc setValue:[sender integerValue] atMemoryLocation:row];
     [self.tableView reloadData];
+}
+
+- (IBAction)closeInputSheet:(id)sender {
+    [self.lmc returnInput:[self.inputField integerValue]];
+    [self.inputSheet orderOut:nil];
+    [NSApp endSheet:self.inputSheet];
+    //[[self.inputSheet sheetParent] endSheet:self.inputSheet];
+}
+
+- (IBAction)openInputSheet:(id)sender {
+    [[NSApplication sharedApplication] beginSheet:self.inputSheet modalForWindow:[self windowForSheet] modalDelegate:self didEndSelector:NULL contextInfo:nil];
 }
 
 @end

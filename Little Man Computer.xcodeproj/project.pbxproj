@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3715C6F51920F7BD002E5934 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3715C6F41920F7BD002E5934 /* Cocoa.framework */; };
+		3715C6FF1920F7BD002E5934 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3715C6FD1920F7BD002E5934 /* InfoPlist.strings */; };
+		3715C7011920F7BD002E5934 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3715C7001920F7BD002E5934 /* main.m */; };
+		3715C7051920F7BD002E5934 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3715C7031920F7BD002E5934 /* Credits.rtf */; };
+		3715C7081920F7BD002E5934 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 3715C7071920F7BD002E5934 /* Document.m */; };
+		3715C70B1920F7BD002E5934 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3715C7091920F7BD002E5934 /* Document.xib */; };
+		3715C70E1920F7BD002E5934 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3715C70C1920F7BD002E5934 /* MainMenu.xib */; };
+		3715C7101920F7BD002E5934 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3715C70F1920F7BD002E5934 /* Images.xcassets */; };
+		3715C7171920F7BD002E5934 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3715C7161920F7BD002E5934 /* XCTest.framework */; };
+		3715C7181920F7BD002E5934 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3715C6F41920F7BD002E5934 /* Cocoa.framework */; };
+		3715C7201920F7BD002E5934 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3715C71E1920F7BD002E5934 /* InfoPlist.strings */; };
+		3715C7221920F7BD002E5934 /* Little_Man_ComputerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3715C7211920F7BD002E5934 /* Little_Man_ComputerTests.m */; };
+		3715C72D1920FC4B002E5934 /* LittleManComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3715C72C1920FC4B002E5934 /* LittleManComputer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3715C7191920F7BD002E5934 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3715C6E91920F7BC002E5934 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3715C6F01920F7BD002E5934;
+			remoteInfo = "Little Man Computer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3715C6F11920F7BD002E5934 /* Little Man Computer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Little Man Computer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3715C6F41920F7BD002E5934 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3715C6F71920F7BD002E5934 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3715C6F81920F7BD002E5934 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3715C6F91920F7BD002E5934 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3715C6FC1920F7BD002E5934 /* Little Man Computer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Little Man Computer-Info.plist"; sourceTree = "<group>"; };
+		3715C6FE1920F7BD002E5934 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3715C7001920F7BD002E5934 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3715C7021920F7BD002E5934 /* Little Man Computer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Little Man Computer-Prefix.pch"; sourceTree = "<group>"; };
+		3715C7041920F7BD002E5934 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3715C7061920F7BD002E5934 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		3715C7071920F7BD002E5934 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		3715C70A1920F7BD002E5934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		3715C70D1920F7BD002E5934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3715C70F1920F7BD002E5934 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3715C7151920F7BD002E5934 /* Little Man ComputerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Little Man ComputerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3715C7161920F7BD002E5934 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3715C71D1920F7BD002E5934 /* Little Man ComputerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Little Man ComputerTests-Info.plist"; sourceTree = "<group>"; };
+		3715C71F1920F7BD002E5934 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3715C7211920F7BD002E5934 /* Little_Man_ComputerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Little_Man_ComputerTests.m; sourceTree = "<group>"; };
+		3715C72B1920FC4B002E5934 /* LittleManComputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LittleManComputer.h; path = Model/LittleManComputer.h; sourceTree = "<group>"; };
+		3715C72C1920FC4B002E5934 /* LittleManComputer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LittleManComputer.m; path = Model/LittleManComputer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3715C6EE1920F7BD002E5934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3715C6F51920F7BD002E5934 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3715C7121920F7BD002E5934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3715C7181920F7BD002E5934 /* Cocoa.framework in Frameworks */,
+				3715C7171920F7BD002E5934 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3715C6E81920F7BC002E5934 = {
+			isa = PBXGroup;
+			children = (
+				3715C6FA1920F7BD002E5934 /* Little Man Computer */,
+				3715C71B1920F7BD002E5934 /* Little Man ComputerTests */,
+				3715C6F31920F7BD002E5934 /* Frameworks */,
+				3715C6F21920F7BD002E5934 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3715C6F21920F7BD002E5934 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3715C6F11920F7BD002E5934 /* Little Man Computer.app */,
+				3715C7151920F7BD002E5934 /* Little Man ComputerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3715C6F31920F7BD002E5934 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3715C6F41920F7BD002E5934 /* Cocoa.framework */,
+				3715C7161920F7BD002E5934 /* XCTest.framework */,
+				3715C6F61920F7BD002E5934 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3715C6F61920F7BD002E5934 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3715C6F71920F7BD002E5934 /* AppKit.framework */,
+				3715C6F81920F7BD002E5934 /* CoreData.framework */,
+				3715C6F91920F7BD002E5934 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3715C6FA1920F7BD002E5934 /* Little Man Computer */ = {
+			isa = PBXGroup;
+			children = (
+				3715C7061920F7BD002E5934 /* Document.h */,
+				3715C7071920F7BD002E5934 /* Document.m */,
+				3715C7091920F7BD002E5934 /* Document.xib */,
+				3715C72B1920FC4B002E5934 /* LittleManComputer.h */,
+				3715C72C1920FC4B002E5934 /* LittleManComputer.m */,
+				3715C70C1920F7BD002E5934 /* MainMenu.xib */,
+				3715C70F1920F7BD002E5934 /* Images.xcassets */,
+				3715C6FB1920F7BD002E5934 /* Supporting Files */,
+			);
+			path = "Little Man Computer";
+			sourceTree = "<group>";
+		};
+		3715C6FB1920F7BD002E5934 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3715C6FC1920F7BD002E5934 /* Little Man Computer-Info.plist */,
+				3715C6FD1920F7BD002E5934 /* InfoPlist.strings */,
+				3715C7001920F7BD002E5934 /* main.m */,
+				3715C7021920F7BD002E5934 /* Little Man Computer-Prefix.pch */,
+				3715C7031920F7BD002E5934 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3715C71B1920F7BD002E5934 /* Little Man ComputerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3715C7211920F7BD002E5934 /* Little_Man_ComputerTests.m */,
+				3715C71C1920F7BD002E5934 /* Supporting Files */,
+			);
+			path = "Little Man ComputerTests";
+			sourceTree = "<group>";
+		};
+		3715C71C1920F7BD002E5934 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3715C71D1920F7BD002E5934 /* Little Man ComputerTests-Info.plist */,
+				3715C71E1920F7BD002E5934 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3715C6F01920F7BD002E5934 /* Little Man Computer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3715C7251920F7BD002E5934 /* Build configuration list for PBXNativeTarget "Little Man Computer" */;
+			buildPhases = (
+				3715C6ED1920F7BD002E5934 /* Sources */,
+				3715C6EE1920F7BD002E5934 /* Frameworks */,
+				3715C6EF1920F7BD002E5934 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Little Man Computer";
+			productName = "Little Man Computer";
+			productReference = 3715C6F11920F7BD002E5934 /* Little Man Computer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3715C7141920F7BD002E5934 /* Little Man ComputerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3715C7281920F7BD002E5934 /* Build configuration list for PBXNativeTarget "Little Man ComputerTests" */;
+			buildPhases = (
+				3715C7111920F7BD002E5934 /* Sources */,
+				3715C7121920F7BD002E5934 /* Frameworks */,
+				3715C7131920F7BD002E5934 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3715C71A1920F7BD002E5934 /* PBXTargetDependency */,
+			);
+			name = "Little Man ComputerTests";
+			productName = "Little Man ComputerTests";
+			productReference = 3715C7151920F7BD002E5934 /* Little Man ComputerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3715C6E91920F7BC002E5934 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Dan Horwood";
+				TargetAttributes = {
+					3715C7141920F7BD002E5934 = {
+						TestTargetID = 3715C6F01920F7BD002E5934;
+					};
+				};
+			};
+			buildConfigurationList = 3715C6EC1920F7BC002E5934 /* Build configuration list for PBXProject "Little Man Computer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3715C6E81920F7BC002E5934;
+			productRefGroup = 3715C6F21920F7BD002E5934 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3715C6F01920F7BD002E5934 /* Little Man Computer */,
+				3715C7141920F7BD002E5934 /* Little Man ComputerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3715C6EF1920F7BD002E5934 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3715C70B1920F7BD002E5934 /* Document.xib in Resources */,
+				3715C7101920F7BD002E5934 /* Images.xcassets in Resources */,
+				3715C6FF1920F7BD002E5934 /* InfoPlist.strings in Resources */,
+				3715C7051920F7BD002E5934 /* Credits.rtf in Resources */,
+				3715C70E1920F7BD002E5934 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3715C7131920F7BD002E5934 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3715C7201920F7BD002E5934 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3715C6ED1920F7BD002E5934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3715C72D1920FC4B002E5934 /* LittleManComputer.m in Sources */,
+				3715C7081920F7BD002E5934 /* Document.m in Sources */,
+				3715C7011920F7BD002E5934 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3715C7111920F7BD002E5934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3715C7221920F7BD002E5934 /* Little_Man_ComputerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3715C71A1920F7BD002E5934 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3715C6F01920F7BD002E5934 /* Little Man Computer */;
+			targetProxy = 3715C7191920F7BD002E5934 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3715C6FD1920F7BD002E5934 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3715C6FE1920F7BD002E5934 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3715C7031920F7BD002E5934 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3715C7041920F7BD002E5934 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3715C7091920F7BD002E5934 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3715C70A1920F7BD002E5934 /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		3715C70C1920F7BD002E5934 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3715C70D1920F7BD002E5934 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3715C71E1920F7BD002E5934 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3715C71F1920F7BD002E5934 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3715C7231920F7BD002E5934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3715C7241920F7BD002E5934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3715C7261920F7BD002E5934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Little Man Computer/Little Man Computer-Prefix.pch";
+				INFOPLIST_FILE = "Little Man Computer/Little Man Computer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3715C7271920F7BD002E5934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Little Man Computer/Little Man Computer-Prefix.pch";
+				INFOPLIST_FILE = "Little Man Computer/Little Man Computer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3715C7291920F7BD002E5934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Little Man Computer.app/Contents/MacOS/Little Man Computer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Little Man Computer/Little Man Computer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Little Man ComputerTests/Little Man ComputerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3715C72A1920F7BD002E5934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Little Man Computer.app/Contents/MacOS/Little Man Computer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Little Man Computer/Little Man Computer-Prefix.pch";
+				INFOPLIST_FILE = "Little Man ComputerTests/Little Man ComputerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3715C6EC1920F7BC002E5934 /* Build configuration list for PBXProject "Little Man Computer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3715C7231920F7BD002E5934 /* Debug */,
+				3715C7241920F7BD002E5934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3715C7251920F7BD002E5934 /* Build configuration list for PBXNativeTarget "Little Man Computer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3715C7261920F7BD002E5934 /* Debug */,
+				3715C7271920F7BD002E5934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3715C7281920F7BD002E5934 /* Build configuration list for PBXNativeTarget "Little Man ComputerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3715C7291920F7BD002E5934 /* Debug */,
+				3715C72A1920F7BD002E5934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3715C6E91920F7BC002E5934 /* Project object */;
+}

@@ -1,0 +1,737 @@
+TLittle Man Computer
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/PrecompiledHeaders/Little\ Man\ Computer-Prefix-cqizrqqtansirkbyujrmeozuaciv/Little\ Man\ Computer-Prefix.pch.pch Little\ Man\ Computer/Little\ Man\ Computer-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/LittleManComputer.o /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/Model/LittleManComputer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/Document.o /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/Document.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/main.o /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/Little\ Man\ Computer.app/Contents/MacOS/Little\ Man\ Computer normal x86_64
+cCompileXIB /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/Base.lproj/Document.xib
+cCopyStringsFile /Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/Little\ Man\ Computer.app/Contents/Resources/en.lproj/InfoPlist.strings Little\ Man\ Computer/en.lproj/InfoPlist.strings
+cCpResource Little\ Man\ Computer/en.lproj/Credits.rtf Build/Products/Debug/Little\ Man\ Computer.app/Contents/Resources/en.lproj/Credits.rtf
+cCompileXIB /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/Base.lproj/MainMenu.xib
+cCompileAssetCatalog /Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/Little\ Man\ Computer.app/Contents/Resources /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/Images.xcassets
+cProcessInfoPlistFile /Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/Little\ Man\ Computer.app/Contents/Info.plist /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/Little\ Man\ Computer-Info.plist
+cTouch /Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/Little\ Man\ Computer.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000530295C100000000000000AA
+t1392678337
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c000000005368B5B6000000000000044C
+t1399371190
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005368B5B600000000000001DE
+t1399371190
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+c000000005368B5B60000000000268434
+t1399371190
+s2524212
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c000000005368B5B60000000000007D5C
+t1399371190
+s32092
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+c000000005368B5B60000000000020D64
+t1399371190
+s134500
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+c000000005368B5B6000000000001B3B8
+t1399371190
+s111544
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+c000000005368B5B60000000000034FAC
+t1399371190
+s217004
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+c000000005368B5B6000000000000CB08
+t1399371190
+s51976
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+c000000005368B5B6000000000002C5F4
+t1399371190
+s181748
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+c000000005368B5B6000000000002B9A8
+t1399371190
+s178600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+c000000005368B5B60000000000011EF8
+t1399371190
+s73464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000005368B5B600000000000598A8
+t1399371190
+s366760
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000005368B5B6000000000000253C
+t1399371190
+s9532
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000005368B5B6000000000004C7C4
+t1399371190
+s313284
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000005368B5B60000000000085C70
+t1399371190
+s547952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005368B5B7000000000008B334
+t1399371191
+s570164
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+c000000005368B5B7000000000000979C
+t1399371191
+s38812
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+c000000005368B5B700000000000223B4
+t1399371191
+s140212
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+c000000005368B5B70000000000071CA8
+t1399371191
+s466088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+c000000005368B5B70000000000017E1C
+t1399371191
+s97820
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+c000000005368B5B7000000000004F090
+t1399371191
+s323728
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+c000000005368B5B7000000000003AA48
+t1399371191
+s240200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+c000000005368B5B700000000000383CC
+t1399371191
+s230348
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+c000000005368B5B7000000000001B66C
+t1399371191
+s112236
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c000000005368B5B70000000000030448
+t1399371191
+s197704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000005368B5B70000000000017D00
+t1399371191
+s97536
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/DiskArbitration.framework/DiskArbitration
+c000000005368B5B7000000000000B27C
+t1399371191
+s45692
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005368B5B700000000000C9E38
+t1399371191
+s826936
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOKit.framework/IOKit
+c000000005368B5B7000000000004426C
+t1399371191
+s279148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOSurface.framework/IOSurface
+c000000005368B5B7000000000000A9A0
+t1399371191
+s43424
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c000000005368B5B700000000000394B0
+t1399371191
+s234672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000005368B5B8000000000000BB7C
+t1399371192
+s47996
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+c000000005368B5B800000000000211A0
+t1399371192
+s135584
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+c0000000052FD7F1E0000000000005F00
+t1392344862
+s24320
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005368B5B90000000000055BC0
+t1399371193
+s351168
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/CoreImage.framework/Versions/A/CoreImage
+c000000005368B5B90000000000056FB4
+t1399371193
+s356276
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/ScalableUserInterface.framework/Versions/A/ScalableUserInterface
+c000000005368B5B9000000000000D484
+t1399371193
+s54404
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Security.framework/Security
+c000000005368B5BA00000000000762B4
+t1399371194
+s484020
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+c000000005368B5BC000000000000681C
+t1399371196
+s26652
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.dylib
+c000000005368B5BC0000000000014EF8
+t1399371196
+s85752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+c000000005368B5BD0000000000004734
+t1399371197
+s18228
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+c000000005368B5BD000000000000FC6C
+t1399371197
+s64620
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+c000000005368B5BD000000000000F6A0
+t1399371197
+s63136
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+c000000005368B5BD0000000000006254
+t1399371197
+s25172
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+c000000005368B5BD000000000000E0F8
+t1399371197
+s57592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+c000000005368B5BD000000000000D6DC
+t1399371197
+s55004
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+c000000005368B5BD0000000000006308
+t1399371197
+s25352
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+c000000005368B5BD0000000000004050
+t1399371197
+s16464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+c000000005368B5BD0000000000008570
+t1399371197
+s34160
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+c000000005368B5BD0000000000005EA0
+t1399371197
+s24224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+c000000005368B5BD0000000000005FAC
+t1399371197
+s24492
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+c000000005368B5BD0000000000004440
+t1399371197
+s17472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+c000000005368B5BD000000000000AA28
+t1399371197
+s43560
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+c000000005368B5BD0000000000003E2C
+t1399371197
+s15916
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+c000000005368B5BD0000000000030B04
+t1399371197
+s199428
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+c000000005368B5BD0000000000005E54
+t1399371197
+s24148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+c000000005368B5BD0000000000006A90
+t1399371197
+s27280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+c000000005368B5BD00000000000178AC
+t1399371197
+s96428
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+c000000005368B5BD000000000001ADC8
+t1399371197
+s110024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+c000000005368B5BD000000000001028C
+t1399371197
+s66188
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+c000000005368B5BD0000000000008800
+t1399371197
+s34816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+c000000005368B5BD0000000000011090
+t1399371197
+s69776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+c000000005368B5BD000000000000882C
+t1399371197
+s34860
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+c000000005368B5BD00000000000067AC
+t1399371197
+s26540
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+c000000005368B5BD0000000000008DEC
+t1399371197
+s36332
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+c000000005368B5BD0000000000004C08
+t1399371197
+s19464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+c000000005368B5BD0000000000002428
+t1399371197
+s9256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+c000000005368B5BD000000000000439C
+t1399371197
+s17308
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+c000000005368B5BD0000000000006768
+t1399371197
+s26472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+c000000005368B5BD00000000000172F4
+t1399371197
+s94964
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c000000005368B5CB0000000000000ADC
+t1399371211
+s2780
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+c000000005368B5CB0000000000001770
+t1399371211
+s6000
+
+N/Users/dan/src/Little Man Computer/Build/Intermediates/Little Man Computer.build/Debug/Little Man Computer.build/Objects-normal/x86_64/Document.o
+t1399905453
+s58092
+
+N/Users/dan/src/Little Man Computer/Build/Intermediates/Little Man Computer.build/Debug/Little Man Computer.build/Objects-normal/x86_64/Little Man Computer.LinkFileList
+c000000005370DB0E00000000000001BB
+t1399905038
+s443
+
+N/Users/dan/src/Little Man Computer/Build/Intermediates/Little Man Computer.build/Debug/Little Man Computer.build/Objects-normal/x86_64/LittleManComputer.o
+t1399906738
+s27708
+
+N/Users/dan/src/Little Man Computer/Build/Intermediates/Little Man Computer.build/Debug/Little Man Computer.build/Objects-normal/x86_64/main.o
+t1399905039
+s3384
+
+N/Users/dan/src/Little Man Computer/Build/Intermediates/Little Man Computer.build/Debug/Little Man Computer.build/assetcatalog_dependencies.txt
+t1399905042
+s272
+
+N/Users/dan/src/Little Man Computer/Build/Intermediates/Little Man Computer.build/Debug/Little Man Computer.build/assetcatalog_generated_info.plist
+t1399905042
+s181
+
+N/Users/dan/src/Little Man Computer/Build/Intermediates/PrecompiledHeaders/Little Man Computer-Prefix-cqizrqqtansirkbyujrmeozuaciv/Little Man Computer-Prefix.pch.pch
+t1399905039
+s124884
+
+N/Users/dan/src/Little Man Computer/Build/Products/Debug/Little Man Computer.app
+t1399906772
+s102
+
+N/Users/dan/src/Little Man Computer/Build/Products/Debug/Little Man Computer.app/Contents/Info.plist
+t1399905042
+s1868
+
+N/Users/dan/src/Little Man Computer/Build/Products/Debug/Little Man Computer.app/Contents/MacOS/Little Man Computer
+t1399906738
+s34456
+
+N/Users/dan/src/Little Man Computer/Build/Products/Debug/Little Man Computer.app/Contents/PkgInfo
+t1399905042
+s8
+
+N/Users/dan/src/Little Man Computer/Build/Products/Debug/Little Man Computer.app/Contents/Resources/Base.lproj/Document.nib
+t1399907072
+s24468
+
+N/Users/dan/src/Little Man Computer/Build/Products/Debug/Little Man Computer.app/Contents/Resources/Base.lproj/MainMenu.nib
+t1399905041
+s35841
+
+N/Users/dan/src/Little Man Computer/Build/Products/Debug/Little Man Computer.app/Contents/Resources/en.lproj/Credits.rtf
+t1399905039
+s436
+
+N/Users/dan/src/Little Man Computer/Build/Products/Debug/Little Man Computer.app/Contents/Resources/en.lproj/InfoPlist.strings
+t1399905039
+s92
+
+N/Users/dan/src/Little Man Computer/Little Man Computer/Base.lproj/Document.xib
+c000000005370E2FE00000000000037BF
+t1399907070
+s14271
+
+N/Users/dan/src/Little Man Computer/Little Man Computer/Base.lproj/MainMenu.xib
+c000000005370C03D000000000000BD59
+t1399898173
+s48473
+
+N/Users/dan/src/Little Man Computer/Little Man Computer/Document.h
+c000000005370DA170000000000000171
+t1399904791
+s369
+
+N/Users/dan/src/Little Man Computer/Little Man Computer/Document.m
+c000000005370DCAB0000000000000BB9
+t1399905451
+s3001
+
+N/Users/dan/src/Little Man Computer/Little Man Computer/Images.xcassets
+c000000005370C03D0000000000000066
+t1399898173
+s102
+
+N/Users/dan/src/Little Man Computer/Little Man Computer/Little Man Computer-Info.plist
+c000000005370C03D0000000000000627
+t1399898173
+s1575
+
+N/Users/dan/src/Little Man Computer/Little Man Computer/Little Man Computer-Prefix.pch
+c000000005370C03D00000000000000AC
+t1399898173
+s172
+
+N/Users/dan/src/Little Man Computer/Little Man Computer/Model/LittleManComputer.h
+c000000005370D7B2000000000000027D
+t1399904178
+s637
+
+N/Users/dan/src/Little Man Computer/Little Man Computer/Model/LittleManComputer.m
+c000000005370E07200000000000009D6
+t1399906418
+s2518
+
+N/Users/dan/src/Little Man Computer/Little Man Computer/en.lproj/Credits.rtf
+c000000005370C03D00000000000001B4
+t1399898173
+s436
+
+N/Users/dan/src/Little Man Computer/Little Man Computer/en.lproj/InfoPlist.strings
+c000000005370C03D000000000000002D
+t1399898173
+s45
+
+N/Users/dan/src/Little Man Computer/Little Man Computer/main.m
+c000000005370C03D00000000000000FF
+t1399898173
+s255
+
+CBuild AST from /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/Document.m
+r0
+
+CBuild AST from /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/Model/LittleManComputer.m
+r0
+
+CBuild AST from /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies8cf5c57e1a21b941^cb2bc77e1a21b941^---0#1#1#--18"Check dependencies36"86EB2116-EB6B-46CD-81C6-C4A7FD8B35E2-
+
+CCompileAssetCatalog /Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/Little\ Man\ Computer.app/Contents/Resources /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/Images.xcassets
+s421597839.803844
+e421597842.350228
+r1
+xCompileAssetCatalog
+x/Users/dan/src/Little Man Computer/Build/Products/Debug/Little Man Computer.app/Contents/Resources
+x/Users/dan/src/Little Man Computer/Little Man Computer/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/dan/src/Little Man Computer/Build/Products/Debug/Little Man Computer.app/Contents/Resources/Assets.car
+o/Users/dan/src/Little Man Computer/Build/Intermediates/Little Man Computer.build/Debug/Little Man Computer.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"CompileAssetCatalog Build/Products/Debug/Little\ Man\ Computer.app/Contents/Resources Little\ Man\ Computer/Images.xcassets123"CompileAssetCatalog Build/Products/Debug/Little\ Man\ Computer.app/Contents/Resources Little\ Man\ Computer/Images.xcassets1ae1cd8f1221b941^43a959921221b941^-301"/* com.apple.actool.compilation-results *//Users/dan/src/Little Man Computer/Build/Products/Debug/Little Man Computer.app/Contents/Resources/Assets.car/Users/dan/src/Little Man Computer/Build/Intermediates/Little Man Computer.build/Debug/Little Man Computer.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@86"file:///Users/dan/src/Little%20Man%20Computer/Little%20Man%20Computer/Images.xcassets/0000000000000000^920"CompileAssetCatalog Build/Products/Debug/Little\ Man\ Computer.app/Contents/Resources Little\ Man\ Computer/Images.xcassets    cd "/Users/dan/src/Little Man Computer"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/assetcatalog_generated_info.plist --app-icon AppIcon --platform macosx --minimum-deployment-target 10.9 --target-device mac --compile /Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/Little\ Man\ Computer.app/Contents/Resources /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/Images.xcassets36"2E69B42A-665D-4A3C-9FA3-D64E19618D8B-
+b14210480-24A5-4F35-BFBA-A2A5AF4360CF
+
+CCompileC Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/Document.o /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/Document.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421598253.588045
+e421598253.685131
+r1
+xCompileC
+xBuild/Intermediates/Little Man Computer.build/Debug/Little Man Computer.build/Objects-normal/x86_64/Document.o
+x/Users/dan/src/Little Man Computer/Little Man Computer/Document.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/dan/src/Little Man Computer/Little Man Computer/Document.m
+d/Users/dan/src/Little Man Computer/Little Man Computer/Document.h
+d/Users/dan/src/Little Man Computer/Little Man Computer/Model/LittleManComputer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/dan/src/Little Man Computer/Little Man Computer/Document.m226"CompileC Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/Document.o Little\ Man\ Computer/Document.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler6fb9962d1421b941^cb65af2d1421b941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/dan/src/Little%20Man%20Computer/Little%20Man%20Computer/Document.m0000000000000000^3542"CompileC Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/Document.o Little\ Man\ Computer/Document.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/dan/src/Little Man Computer"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/dan/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Little\ Man\ Computer-generated-files.hmap -I/Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Little\ Man\ Computer-own-target-headers.hmap -I/Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Little\ Man\ Computer-all-target-headers.hmap -iquote /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Little\ Man\ Computer-project-headers.hmap -I/Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/DerivedSources/x86_64 -I/Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/DerivedSources -F/Users/dan/src/Little\ Man\ Computer/Build/Products/Debug -include /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/PrecompiledHeaders/Little\ Man\ Computer-Prefix-cqizrqqtansirkbyujrmeozuaciv/Little\ Man\ Computer-Prefix.pch -MMD -MT dependencies -MF /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/Document.d --serialize-diagnostics /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/Document.dia -c /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/Document.m -o /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/Document.o36"970364BB-FF87-4D70-AB70-602D7D96DD37-
+b8A2C3145-C9C5-4554-844B-E58CA8F06A30
+
+CCompileC Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/LittleManComputer.o /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/Model/LittleManComputer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421599537.511946
+e421599538.546571
+r1
+xCompileC
+xBuild/Intermediates/Little Man Computer.build/Debug/Little Man Computer.build/Objects-normal/x86_64/LittleManComputer.o
+x/Users/dan/src/Little Man Computer/Little Man Computer/Model/LittleManComputer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/dan/src/Little Man Computer/Little Man Computer/Model/LittleManComputer.m
+d/Users/dan/src/Little Man Computer/Little Man Computer/Model/LittleManComputer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/dan/src/Little Man Computer/Little Man Computer/Model/LittleManComputer.m250"CompileC Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/LittleManComputer.o Little\ Man\ Computer/Model/LittleManComputer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler723483311921b941^f2ef8b321921b941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/dan/src/Little%20Man%20Computer/Little%20Man%20Computer/Model/LittleManComputer.m0000000000000000^3608"CompileC Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/LittleManComputer.o Little\ Man\ Computer/Model/LittleManComputer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/dan/src/Little Man Computer"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/dan/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Little\ Man\ Computer-generated-files.hmap -I/Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Little\ Man\ Computer-own-target-headers.hmap -I/Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Little\ Man\ Computer-all-target-headers.hmap -iquote /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Little\ Man\ Computer-project-headers.hmap -I/Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/DerivedSources/x86_64 -I/Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/DerivedSources -F/Users/dan/src/Little\ Man\ Computer/Build/Products/Debug -include /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/PrecompiledHeaders/Little\ Man\ Computer-Prefix-cqizrqqtansirkbyujrmeozuaciv/Little\ Man\ Computer-Prefix.pch -MMD -MT dependencies -MF /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/LittleManComputer.d --serialize-diagnostics /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/LittleManComputer.dia -c /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/Model/LittleManComputer.m -o /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/LittleManComputer.o36"54D86734-BFE9-485D-B29B-FC46C1A94431-
+bA051756B-A812-471C-B85C-6A0C4D6562C5
+
+CCompileC Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/main.o /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421597839.285908
+e421597839.442712
+r1
+xCompileC
+xBuild/Intermediates/Little Man Computer.build/Debug/Little Man Computer.build/Objects-normal/x86_64/main.o
+x/Users/dan/src/Little Man Computer/Little Man Computer/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/dan/src/Little Man Computer/Little Man Computer/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/dan/src/Little Man Computer/Little Man Computer/main.m218"CompileC Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/main.o Little\ Man\ Computer/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler8654498f1221b941^1956718f1221b941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/dan/src/Little%20Man%20Computer/Little%20Man%20Computer/main.m0000000000000000^3518"CompileC Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/main.o Little\ Man\ Computer/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/dan/src/Little Man Computer"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/dan/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Little\ Man\ Computer-generated-files.hmap -I/Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Little\ Man\ Computer-own-target-headers.hmap -I/Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Little\ Man\ Computer-all-target-headers.hmap -iquote /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Little\ Man\ Computer-project-headers.hmap -I/Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/DerivedSources/x86_64 -I/Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/DerivedSources -F/Users/dan/src/Little\ Man\ Computer/Build/Products/Debug -include /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/PrecompiledHeaders/Little\ Man\ Computer-Prefix-cqizrqqtansirkbyujrmeozuaciv/Little\ Man\ Computer-Prefix.pch -MMD -MT dependencies -MF /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/main.dia -c /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/main.m -o /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/main.o36"DC4BDFBB-F457-4667-B76C-3DCDFAA1A8F1-
+b14210480-24A5-4F35-BFBA-A2A5AF4360CF
+
+CCompileXIB /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/Base.lproj/Document.xib
+s421599870.779698
+e421599872.151825
+r1
+xCompileXIB
+x/Users/dan/src/Little Man Computer/Little Man Computer/Base.lproj/Document.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compiling /Users/dan/src/Little Man Computer/Little Man Computer/Base.lproj/Document.xib56"CompileXIB Little\ Man\ Computer/Base.lproj/Document.xib75abc77e1a21b941^87de26801a21b941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/dan/src/Little%20Man%20Computer/Little%20Man%20Computer/Base.lproj/Document.xib0000000000000000^572"CompileXIB Little\ Man\ Computer/Base.lproj/Document.xib    cd "/Users/dan/src/Little Man Computer"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 10.9 --output-format human-readable-text --compile /Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/Little\ Man\ Computer.app/Contents/Resources/Base.lproj/Document.nib /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/Base.lproj/Document.xib36"3C069DEE-3EC8-4B81-8C51-6E209F584B48-
+bB03369EE-0DC1-455C-A2DC-FCEBDCB7571C
+
+CCompileXIB /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/Base.lproj/MainMenu.xib
+s421597839.799387
+e421597841.092736
+r1
+xCompileXIB
+x/Users/dan/src/Little Man Computer/Little Man Computer/Base.lproj/MainMenu.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compiling /Users/dan/src/Little Man Computer/Little Man Computer/Base.lproj/MainMenu.xib56"CompileXIB Little\ Man\ Computer/Base.lproj/MainMenu.xibb1bfcc8f1221b941^f1bd17911221b941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/dan/src/Little%20Man%20Computer/Little%20Man%20Computer/Base.lproj/MainMenu.xib0000000000000000^572"CompileXIB Little\ Man\ Computer/Base.lproj/MainMenu.xib    cd "/Users/dan/src/Little Man Computer"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 10.9 --output-format human-readable-text --compile /Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/Little\ Man\ Computer.app/Contents/Resources/Base.lproj/MainMenu.nib /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/Base.lproj/MainMenu.xib36"ED74EDC3-E070-4162-9D38-41BD477E964E-
+b14210480-24A5-4F35-BFBA-A2A5AF4360CF
+
+CCopyStringsFile /Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/Little\ Man\ Computer.app/Contents/Resources/en.lproj/InfoPlist.strings Little\ Man\ Computer/en.lproj/InfoPlist.strings
+s421597839.797672
+e421597839.803497
+r1
+xCopyStringsFile
+x/Users/dan/src/Little Man Computer/Build/Products/Debug/Little Man Computer.app/Contents/Resources/en.lproj/InfoPlist.strings
+xLittle Man Computer/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy Little Man Computer/en.lproj/InfoPlist.strings157"CopyStringsFile Build/Products/Debug/Little\ Man\ Computer.app/Contents/Resources/en.lproj/InfoPlist.strings Little\ Man\ Computer/en.lproj/InfoPlist.stringsf148cc8f1221b941^e9b9cd8f1221b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/dan/src/Little%20Man%20Computer/Little%20Man%20Computer/en.lproj/InfoPlist.strings0000000000000000^456"CopyStringsFile Build/Products/Debug/Little\ Man\ Computer.app/Contents/Resources/en.lproj/InfoPlist.strings Little\ Man\ Computer/en.lproj/InfoPlist.strings    cd "/Users/dan/src/Little Man Computer"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/Little\ Man\ Computer.app/Contents/Resources/en.lproj -- Little\ Man\ Computer/en.lproj/InfoPlist.strings36"F2DAF5DF-3B53-4B23-A48B-381FA3AD21C4-
+b14210480-24A5-4F35-BFBA-A2A5AF4360CF
+
+CCpResource Little\ Man\ Computer/en.lproj/Credits.rtf Build/Products/Debug/Little\ Man\ Computer.app/Contents/Resources/en.lproj/Credits.rtf
+s421597839.797883
+e421597839.803468
+r1
+xCpResource
+xLittle Man Computer/en.lproj/Credits.rtf
+xBuild/Products/Debug/Little Man Computer.app/Contents/Resources/en.lproj/Credits.rtf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy Build/Products/Debug/Little Man Computer.app/Contents/Resources/en.lproj/Credits.rtf140"CpResource Little\ Man\ Computer/en.lproj/Credits.rtf Build/Products/Debug/Little\ Man\ Computer.app/Contents/Resources/en.lproj/Credits.rtfee5ccc8f1221b941^67b4cd8f1221b941^---0#0#1#-19%DVTDocumentLocation2@134"file:///Users/dan/src/Little%20Man%20Computer/Build/Products/Debug/Little%20Man%20Computer.app/Contents/Resources/en.lproj/Credits.rtf0034c461dfffdf42^489"CpResource Little\ Man\ Computer/en.lproj/Credits.rtf Build/Products/Debug/Little\ Man\ Computer.app/Contents/Resources/en.lproj/Credits.rtf    cd "/Users/dan/src/Little Man Computer"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/en.lproj/Credits.rtf /Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/Little\ Man\ Computer.app/Contents/Resources/en.lproj36"C0C54499-BE8F-4DAE-890C-A3214C9A8815-
+b14210480-24A5-4F35-BFBA-A2A5AF4360CF
+
+CLd /Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/Little\ Man\ Computer.app/Contents/MacOS/Little\ Man\ Computer normal x86_64
+s421599538.548694
+e421599538.909038
+r1
+xLd
+x/Users/dan/src/Little Man Computer/Build/Products/Debug/Little Man Computer.app/Contents/MacOS/Little Man Computer
+xnormal
+xx86_64
+d/Users/dan/src/Little Man Computer/Build/Intermediates/Little Man Computer.build/Debug/Little Man Computer.build/Objects-normal/x86_64/Little Man Computer.LinkFileList
+d/Users/dan/src/Little Man Computer/Build/Intermediates/Little Man Computer.build/Debug/Little Man Computer.build/Objects-normal/x86_64/LittleManComputer.o
+d/Users/dan/src/Little Man Computer/Build/Intermediates/Little Man Computer.build/Debug/Little Man Computer.build/Objects-normal/x86_64/Document.o
+d/Users/dan/src/Little Man Computer/Build/Intermediates/Little Man Computer.build/Debug/Little Man Computer.build/Objects-normal/x86_64/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOKit.framework/IOKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOSurface.framework/IOSurface
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/DiskArbitration.framework/DiskArbitration
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/CoreImage.framework/Versions/A/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/ScalableUserInterface.framework/Versions/A/ScalableUserInterface
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Link /Users/dan/src/Little Man Computer/Build/Products/Debug/Little Man Computer.app/Contents/MacOS/Little Man Computer100"Ld Build/Products/Debug/Little\ Man\ Computer.app/Contents/MacOS/Little\ Man\ Computer normal x86_64f0868c321921b941^91b7e8321921b941^---0#0#1#--1127"Ld Build/Products/Debug/Little\ Man\ Computer.app/Contents/MacOS/Little\ Man\ Computer normal x86_64    cd "/Users/dan/src/Little Man Computer"    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/dan/src/Little\ Man\ Computer/Build/Products/Debug -F/Users/dan/src/Little\ Man\ Computer/Build/Products/Debug -filelist /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/Little\ Man\ Computer.LinkFileList -mmacosx-version-min=10.9 -fobjc-arc -fobjc-link-runtime -framework Cocoa -Xlinker -dependency_info -Xlinker /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Objects-normal/x86_64/Little\ Man\ Computer_dependency_info.dat -o /Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/Little\ Man\ Computer.app/Contents/MacOS/Little\ Man\ Computer36"DD5C7F7C-7FC4-4438-967E-046D45AB4C9F-
+bA051756B-A812-471C-B85C-6A0C4D6562C5
+
+CProcessInfoPlistFile /Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/Little\ Man\ Computer.app/Contents/Info.plist /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/Little\ Man\ Computer-Info.plist
+s421597842.351011
+e421597842.354715
+r1
+xProcessInfoPlistFile
+x/Users/dan/src/Little Man Computer/Build/Products/Debug/Little Man Computer.app/Contents/Info.plist
+x/Users/dan/src/Little Man Computer/Little Man Computer/Little Man Computer-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Process /Users/dan/src/Little Man Computer/Little Man Computer/Little Man Computer-Info.plist142"ProcessInfoPlistFile Build/Products/Debug/Little\ Man\ Computer.app/Contents/Info.plist Little\ Man\ Computer/Little\ Man\ Computer-Info.plist24ee59921221b941^74cf5a921221b941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/dan/src/Little%20Man%20Computer/Little%20Man%20Computer/Little%20Man%20Computer-Info.plist0000000000000000^742"ProcessInfoPlistFile Build/Products/Debug/Little\ Man\ Computer.app/Contents/Info.plist Little\ Man\ Computer/Little\ Man\ Computer-Info.plist    cd "/Users/dan/src/Little Man Computer"    builtin-infoPlistUtility /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/Little\ Man\ Computer-Info.plist -genpkginfo /Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/Little\ Man\ Computer.app/Contents/PkgInfo -expandbuildsettings -platform macosx -additionalcontentfile /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/assetcatalog_generated_info.plist -o /Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/Little\ Man\ Computer.app/Contents/Info.plist36"F807E097-6208-420C-AA5D-51124D09C999-
+b14210480-24A5-4F35-BFBA-A2A5AF4360CF
+
+CProcessPCH /Users/dan/Library/Developer/Xcode/DerivedData/Little_Man_Computer-dxccunxtbqralwbsgwivmwccmoal/Index/PrecompiledHeaders/Little\ Man\ Computer-Prefix-dxfmbyyqzhspfmgkbrbiiaoukjgf_ast/Little\ Man\ Computer-Prefix.pch.pch Little\ Man\ Computer/Little\ Man\ Computer-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/PrecompiledHeaders/Little\ Man\ Computer-Prefix-cqizrqqtansirkbyujrmeozuaciv/Little\ Man\ Computer-Prefix.pch.pch Little\ Man\ Computer/Little\ Man\ Computer-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421597838.763955
+e421597839.284553
+r1
+xProcessPCH
+x/Users/dan/src/Little Man Computer/Build/Intermediates/PrecompiledHeaders/Little Man Computer-Prefix-cqizrqqtansirkbyujrmeozuaciv/Little Man Computer-Prefix.pch.pch
+xLittle Man Computer/Little Man Computer-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/dan/src/Little Man Computer/Little Man Computer/Little Man Computer-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Precompile Little Man Computer/Little Man Computer-Prefix.pch269"ProcessPCH Build/Intermediates/PrecompiledHeaders/Little\ Man\ Computer-Prefix-cqizrqqtansirkbyujrmeozuaciv/Little\ Man\ Computer-Prefix.pch.pch Little\ Man\ Computer/Little\ Man\ Computer-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler85b3c38e1221b941^27db488f1221b941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/dan/src/Little%20Man%20Computer/Little%20Man%20Computer/Little%20Man%20Computer-Prefix.pch0000000000000000^3491"ProcessPCH Build/Intermediates/PrecompiledHeaders/Little\ Man\ Computer-Prefix-cqizrqqtansirkbyujrmeozuaciv/Little\ Man\ Computer-Prefix.pch.pch Little\ Man\ Computer/Little\ Man\ Computer-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/dan/src/Little Man Computer"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/dan/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Little\ Man\ Computer-generated-files.hmap -I/Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Little\ Man\ Computer-own-target-headers.hmap -I/Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Little\ Man\ Computer-all-target-headers.hmap -iquote /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/Little\ Man\ Computer-project-headers.hmap -I/Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/DerivedSources/x86_64 -I/Users/dan/src/Little\ Man\ Computer/Build/Intermediates/Little\ Man\ Computer.build/Debug/Little\ Man\ Computer.build/DerivedSources -F/Users/dan/src/Little\ Man\ Computer/Build/Products/Debug --serialize-diagnostics /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/PrecompiledHeaders/Little\ Man\ Computer-Prefix-cqizrqqtansirkbyujrmeozuaciv/Little\ Man\ Computer-Prefix.pch.dia -MMD -MT dependencies -MF /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/PrecompiledHeaders/Little\ Man\ Computer-Prefix-cqizrqqtansirkbyujrmeozuaciv/Little\ Man\ Computer-Prefix.pch.d -c /Users/dan/src/Little\ Man\ Computer/Little\ Man\ Computer/Little\ Man\ Computer-Prefix.pch -o /Users/dan/src/Little\ Man\ Computer/Build/Intermediates/PrecompiledHeaders/Little\ Man\ Computer-Prefix-cqizrqqtansirkbyujrmeozuaciv/Little\ Man\ Computer-Prefix.pch.pch36"95589E9D-E15B-4B54-B935-7CC25A240164-
+b14210480-24A5-4F35-BFBA-A2A5AF4360CF
+
+CTouch /Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/Little\ Man\ Computer.app
+s421599872.152765
+e421599872.159914
+r1
+xTouch
+x/Users/dan/src/Little Man Computer/Build/Products/Debug/Little Man Computer.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Touch /Users/dan/src/Little Man Computer/Build/Products/Debug/Little Man Computer.app52"Touch Build/Products/Debug/Little\ Man\ Computer.app172e27801a21b941^e5f128801a21b941^---0#0#1#--203"Touch Build/Products/Debug/Little\ Man\ Computer.app    cd "/Users/dan/src/Little Man Computer"    /usr/bin/touch -c /Users/dan/src/Little\ Man\ Computer/Build/Products/Debug/Little\ Man\ Computer.app36"E0AF2D4B-AEE7-4A69-876A-66B7683AAED9-
+bB03369EE-0DC1-455C-A2DC-FCEBDCB7571C
+

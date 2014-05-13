@@ -78,12 +78,12 @@
 
 - (NSInteger)getInput
 {
-    return 0;
+    return 5;
 }
 
-- (void)putOutput:(NSInteger)value
+- (void)putOutput:(NSNumber *)value
 {
-    NSLog(@"Output: %ld", (long)value);
+    NSLog(@"Output: %ld", [value longValue]);
 }
 
 - (void)panic:(NSString *)reason

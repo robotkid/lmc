@@ -10,7 +10,7 @@
 
 @interface NSObject (LittleManComputerDelegate)
 - (NSInteger)getInput;
-- (void)putOutput:(NSInteger)value;
+- (void)putOutput:(NSNumber *)value;
 - (void)panic:(NSString *)reason;
 @end
 

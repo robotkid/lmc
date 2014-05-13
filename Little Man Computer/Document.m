@@ -91,4 +91,20 @@
     NSLog(@"PANIC: %@", reason);
 }
 
+- (IBAction)step:(id)sender {
+    [self.lmc step];
+    [self.tableView reloadData];
+}
+
+- (IBAction)reset:(id)sender {
+    [self.lmc reset];
+    [self.tableView reloadData];
+}
+
+- (IBAction)editedField:(NSTextField *)sender {
+    NSInteger row = [self.tableView selectedRow];
+    [self.lmc setValue:[sender integerValue] atMemoryLocation:row];
+    [self.tableView reloadData];
+}
+
 @end

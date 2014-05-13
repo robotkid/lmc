@@ -15,4 +15,7 @@
 @property LittleManComputer *lmc;
 @property (weak) IBOutlet NSTableView *tableView;
 
+- (IBAction)step:(id)sender;
+- (IBAction)reset:(id)sender;
+- (IBAction)editedField:(NSTextField *)sender;
 @end

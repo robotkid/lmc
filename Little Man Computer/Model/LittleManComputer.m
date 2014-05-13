@@ -164,11 +164,11 @@ typedef NS_ENUM(NSInteger, lmcInstructions) {
         case lmcInstructionHlt:
             self.running = NO;
         case lmcInstructionIO:
-            if (opcode == lmcInstructionInp) {
+            if (self.cir == lmcInstructionInp) {
                 [self input];
                 break;
             }
-            else if (opcode == lmcInstructionOut) {
+            else if (self.cir == lmcInstructionOut) {
                 [self output];
                 break;
             }

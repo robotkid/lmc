@@ -8,7 +8,8 @@
             <connections>
                 <outlet property="inputField" destination="l4R-36-kIk" id="PZ1-FI-Gs5"/>
                 <outlet property="inputSheet" destination="ynW-L7-ltR" id="Qsr-gW-6sC"/>
-                <outlet property="openInputSheet" destination="TaB-D5-aRG" id="gjU-bg-wEt"/>
+                <outlet property="outputField" destination="bKs-DW-bno" id="jxo-af-Ci9"/>
+                <outlet property="outputSheet" destination="JQF-WU-u4t" id="6Z1-M9-mB5"/>
                 <outlet property="tableView" destination="lx1-33-8Sl" id="N6h-eO-tlc"/>
                 <outlet property="window" destination="xOd-HO-29H" id="JIz-fz-R2o"/>
             </connections>
@@ -238,17 +239,6 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TaB-D5-aRG">
-                        <rect key="frame" x="180" y="13" width="112" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Open sheet" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="sF9-rg-gcx">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="openInputSheet:" target="-2" id="SfW-cp-Ng4"/>
-                        </connections>
-                    </button>
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="L6f-EW-nRT" secondAttribute="trailing" constant="329" id="41m-YR-b3H"/>
@@ -320,6 +310,67 @@
                     <constraint firstItem="l4R-36-kIk" firstAttribute="centerX" secondItem="VGX-7s-Ylo" secondAttribute="centerX" id="kU8-aI-45E"/>
                     <constraint firstAttribute="bottom" secondItem="VGX-7s-Ylo" secondAttribute="bottom" constant="20" symbolic="YES" id="kji-nM-0cr"/>
                     <constraint firstItem="l4R-36-kIk" firstAttribute="top" secondItem="j4N-q3-nmR" secondAttribute="bottom" constant="8" symbolic="YES" id="tYJ-YQ-wNp"/>
+                </constraints>
+            </view>
+        </window>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hidesOnDeactivate="YES" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="JQF-WU-u4t" customClass="NSPanel">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" utility="YES" documentModal="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="139" y="81" width="235" height="116"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
+            <view key="contentView" id="bKp-Ef-vUx">
+                <rect key="frame" x="0.0" y="0.0" width="235" height="116"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="eCb-hI-vjk">
+                        <rect key="frame" x="86" y="13" width="63" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="OK!" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="umD-Uy-uPi">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="closeOutputSheet:" target="-2" id="6Si-yV-RTP"/>
+                        </connections>
+                    </button>
+                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bKs-DW-bno">
+                        <rect key="frame" x="95" y="49" width="45" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="45" id="rSJ-5L-gO8"/>
+                        </constraints>
+                        <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" placeholderString="000" drawsBackground="YES" id="d53-JW-SsK">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                        <connections>
+                            <action selector="closeInputSheet:" target="-2" id="8vd-4B-0dq"/>
+                            <binding destination="-2" name="value" keyPath="self.lmc.acc" id="CoG-Px-ZMz">
+                                <dictionary key="options">
+                                    <bool key="NSAllowsEditingMultipleValuesSelection" value="NO"/>
+                                    <bool key="NSRaisesForNotApplicableKeys" value="NO"/>
+                                </dictionary>
+                            </binding>
+                        </connections>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="yU6-Di-Cy4">
+                        <rect key="frame" x="91" y="79" width="53" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Output:" id="0zh-kD-c6s">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="eCb-hI-vjk" firstAttribute="centerX" secondItem="bKp-Ef-vUx" secondAttribute="centerX" id="BWi-o0-L2U"/>
+                    <constraint firstItem="yU6-Di-Cy4" firstAttribute="centerX" secondItem="bKs-DW-bno" secondAttribute="centerX" id="N1A-Az-WKj"/>
+                    <constraint firstAttribute="bottom" secondItem="eCb-hI-vjk" secondAttribute="bottom" constant="20" symbolic="YES" id="PZ6-Vh-Tbt"/>
+                    <constraint firstItem="bKs-DW-bno" firstAttribute="centerX" secondItem="eCb-hI-vjk" secondAttribute="centerX" id="YMK-04-dTn"/>
+                    <constraint firstItem="bKs-DW-bno" firstAttribute="top" secondItem="yU6-Di-Cy4" secondAttribute="bottom" constant="8" symbolic="YES" id="yNt-Ag-YVV"/>
+                    <constraint firstItem="eCb-hI-vjk" firstAttribute="top" secondItem="bKs-DW-bno" secondAttribute="bottom" constant="8" symbolic="YES" id="zxO-Df-RrO"/>
                 </constraints>
             </view>
         </window>

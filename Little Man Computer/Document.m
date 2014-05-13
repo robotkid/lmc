@@ -89,6 +89,8 @@
 - (void)putOutput:(NSNumber *)value
 {
     NSLog(@"Output: %ld", [value longValue]);
+    [self.outputField setIntegerValue:[value integerValue]];
+    [self openOutputSheet:self];
 }
 
 - (void)panic:(NSString *)reason
@@ -120,7 +122,16 @@
 }
 
 - (IBAction)openInputSheet:(id)sender {
-    [[NSApplication sharedApplication] beginSheet:self.inputSheet modalForWindow:[self windowForSheet] modalDelegate:self didEndSelector:NULL contextInfo:nil];
+    [NSApp beginSheet:self.inputSheet modalForWindow:[self windowForSheet] modalDelegate:self didEndSelector:NULL contextInfo:nil];
+}
+
+- (void)openOutputSheet:(id)sender {
+    [NSApp beginSheet:self.outputSheet modalForWindow:[self windowForSheet] modalDelegate:self didEndSelector:NULL contextInfo:nil];
+}
+
+- (IBAction)closeOutputSheet:(id)sender {
+    [self.outputSheet orderOut:nil];
+    [NSApp endSheet:self.outputSheet];
 }
 
 @end

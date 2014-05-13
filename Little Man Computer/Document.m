@@ -107,4 +107,12 @@
     [self.tableView reloadData];
 }
 
+- (IBAction)showInputPanel:(id)sender {
+    [self.inputPanel makeKeyAndOrderFront:nil];
+}
+
+- (IBAction)hideInputPanel:(id)sender {
+    [self.inputPanel close];
+}
+
 @end

@@ -484,6 +484,7 @@
 				3715C7271920F7BD002E5934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3715C7281920F7BD002E5934 /* Build configuration list for PBXNativeTarget "Little Man ComputerTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				3715C72A1920F7BD002E5934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

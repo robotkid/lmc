@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Dan Horwood. All rights reserved.
 //
 
-#import "highlightRingView.h"
+#import "HighlightRingView.h"
 
-@implementation highlightRingView
+@implementation HighlightRingView
 
 - (id)initWithFrame:(NSRect)frame
 {
@@ -23,7 +23,8 @@
 {
     [super drawRect:dirtyRect];
     
-    // Drawing code here.
+    [[NSColor yellowColor] set];
+    [NSBezierPath strokeRect:self.bounds];
 }
 
 @end

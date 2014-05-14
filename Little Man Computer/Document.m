@@ -8,9 +8,11 @@
 
 #import "Document.h"
 #import "LittleManComputer.h"
+#import "HighlightRingView.h"
 
 @interface Document ()
 @property NSInteger inputNumber;
+@property HighlightRingView *highlight;
 @end
 
 
@@ -37,6 +39,9 @@
 {
     [super windowControllerDidLoadNib:aController];
     [self.tableView reloadData];
+    self.highlight = [[HighlightRingView alloc] initWithFrame:[self.tableView rectOfRow:0]];
+    [[self.tableView superview] addSubview:self.highlight positioned:NSWindowAbove relativeTo:self.tableView];
+    
     // Add any code here that needs to be executed once the windowController has loaded the document's window.
 }
 

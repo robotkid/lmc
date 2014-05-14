@@ -8,6 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface highlightRingView : NSView
+@interface HighlightRingView : NSView
 
 @end

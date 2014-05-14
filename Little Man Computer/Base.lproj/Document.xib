@@ -54,7 +54,7 @@
                                             </textFieldCell>
                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                             <prototypeCellViews>
-                                                <tableCellView id="2bN-xG-4jX">
+                                                <tableCellView focusRingType="none" id="2bN-xG-4jX">
                                                     <rect key="frame" x="1" y="1" width="72" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
@@ -91,7 +91,7 @@
                                             </textFieldCell>
                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                             <prototypeCellViews>
-                                                <tableCellView id="cyR-zG-8eC">
+                                                <tableCellView focusRingType="none" id="cyR-zG-8eC">
                                                     <rect key="frame" x="76" y="1" width="78" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>

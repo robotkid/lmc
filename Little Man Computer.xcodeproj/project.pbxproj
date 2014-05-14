@@ -21,6 +21,7 @@
 		3715C7201920F7BD002E5934 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3715C71E1920F7BD002E5934 /* InfoPlist.strings */; };
 		3715C7221920F7BD002E5934 /* Little_Man_ComputerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3715C7211920F7BD002E5934 /* Little_Man_ComputerTests.m */; };
 		3715C72D1920FC4B002E5934 /* LittleManComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3715C72C1920FC4B002E5934 /* LittleManComputer.m */; };
+		377665351923ABFB00E00160 /* NSView+Descriptive.m in Sources */ = {isa = PBXBuildFile; fileRef = 377665341923ABFB00E00160 /* NSView+Descriptive.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		3715C7211920F7BD002E5934 /* Little_Man_ComputerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Little_Man_ComputerTests.m; sourceTree = "<group>"; };
 		3715C72B1920FC4B002E5934 /* LittleManComputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LittleManComputer.h; path = Model/LittleManComputer.h; sourceTree = "<group>"; };
 		3715C72C1920FC4B002E5934 /* LittleManComputer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LittleManComputer.m; path = Model/LittleManComputer.m; sourceTree = "<group>"; };
+		377665331923ABFB00E00160 /* NSView+Descriptive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Descriptive.h"; sourceTree = "<group>"; };
+		377665341923ABFB00E00160 /* NSView+Descriptive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+Descriptive.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 			children = (
 				3715C7061920F7BD002E5934 /* Document.h */,
 				3715C7071920F7BD002E5934 /* Document.m */,
+				377665331923ABFB00E00160 /* NSView+Descriptive.h */,
+				377665341923ABFB00E00160 /* NSView+Descriptive.m */,
 				3715C7091920F7BD002E5934 /* Document.xib */,
 				3715C72B1920FC4B002E5934 /* LittleManComputer.h */,
 				3715C72C1920FC4B002E5934 /* LittleManComputer.m */,
@@ -270,6 +275,7 @@
 				0F3E83BC1923441200E44F35 /* HighlightRingView.m in Sources */,
 				3715C7081920F7BD002E5934 /* Document.m in Sources */,
 				3715C7011920F7BD002E5934 /* main.m in Sources */,
+				377665351923ABFB00E00160 /* NSView+Descriptive.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

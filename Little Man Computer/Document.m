@@ -9,6 +9,7 @@
 #import "Document.h"
 #import "LittleManComputer.h"
 #import "HighlightRingView.h"
+#import "NSView+Descriptive.h"
 
 @interface Document ()
 @property NSInteger inputNumber;
@@ -40,15 +41,31 @@
     [super windowControllerDidLoadNib:aController];
     [self.tableView reloadData];
     self.highlight = [[HighlightRingView alloc] initWithFrame:[self.tableView rectOfRow:0]];
+    self.highlight.tableView = self.tableView;
     [[self.tableView superview] addSubview:self.highlight positioned:NSWindowAbove relativeTo:self.tableView];
-    
-    // Add any code here that needs to be executed once the windowController has loaded the document's window.
 }
 
 + (BOOL)autosavesInPlace
 {
     return YES;
 }
+
+#define ANIMATION_DURATION 0.8
+- (void)updateHighlight
+{
+    NSViewAnimation *anim;
+    NSRect fromFrame = [self.highlight frame];
+    NSRect toFrame = [self.tableView rectOfRow:self.lmc.pc];
+    NSDictionary *viewDict = @{NSViewAnimationTargetKey: self.highlight,
+                                      NSViewAnimationStartFrameKey: [NSValue valueWithRect:fromFrame],
+                                      NSViewAnimationEndFrameKey: [NSValue valueWithRect:toFrame]};
+    
+    anim = [[NSViewAnimation alloc] initWithViewAnimations:@[viewDict]];
+    //[anim setAnimationCurve:NSAnimationEaseIn];
+    [anim setDuration:ANIMATION_DURATION];
+    [anim startAnimation];
+}
+
 
 - (NSData *)dataOfType:(NSString *)typeName error:(NSError **)outError
 {
@@ -106,6 +123,7 @@
 - (IBAction)step:(id)sender {
     [self.lmc step];
     [self.tableView reloadData];
+    [self updateHighlight];
 }
 
 - (IBAction)reset:(id)sender {
@@ -123,7 +141,6 @@
     [self.lmc returnInput:[self.inputField integerValue]];
     [self.inputSheet orderOut:nil];
     [NSApp endSheet:self.inputSheet];
-    //[[self.inputSheet sheetParent] endSheet:self.inputSheet];
 }
 
 - (IBAction)openInputSheet:(id)sender {

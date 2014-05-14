@@ -181,7 +181,9 @@ typedef NS_ENUM(NSInteger, lmcInstructions) {
             break;
     }
     if (self.pc < LMC_MEM_SIZE && self.running) {
-        self.pc++;
+        if (!(opcode == lmcInstructionBra || opcode == lmcInstructionBrp || opcode == lmcInstructionBrz)) {
+            self.pc++;
+        }
         [self updateCIR];
     }
     else
@@ -231,20 +233,20 @@ typedef NS_ENUM(NSInteger, lmcInstructions) {
 
 - (void)branchAlways:(NSUInteger)location
 {
-    self.pc = location - 1;
+    self.pc = location;
 }
 
 - (void)branchIfZero:(NSUInteger)location
 {
     if (self.acc == 0) {
-        self.pc = location - 1;
+        self.pc = location;
     }
 }
 
 - (void)branchIfZeroOrPositive:(NSUInteger)location
 {
     if (self.acc >= 0) {
-        self.pc = location - 1;
+        self.pc = location;
     }
 }
 

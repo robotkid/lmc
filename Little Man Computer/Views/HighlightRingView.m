@@ -33,10 +33,6 @@
     [self.path stroke];
     [[NSColor colorWithCalibratedRed:1.0 green:1.0 blue:0.0 alpha:0.2] set];
     [self.path fill];
-//    NSLog(@"bounds xy %1f %1f", self.bounds.origin.x, self.bounds.origin.y);
-//    NSLog(@"bounds wh %1f %1f", self.bounds.size.width, self.bounds.size.height);
-//    NSLog(@"frame  xy %1f %1f", self.frame.origin.x, self.frame.origin.y);
-//    NSLog(@"frame  wh %1f %1f", self.frame.size.width, self.frame.size.height);
 }
 
 - (NSView *) hitTest:(NSPoint)aPoint

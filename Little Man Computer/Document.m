@@ -129,6 +129,7 @@
 - (IBAction)reset:(id)sender {
     [self.lmc reset];
     [self.tableView reloadData];
+    [self updateHighlight];
 }
 
 - (IBAction)editedField:(NSTextField *)sender {

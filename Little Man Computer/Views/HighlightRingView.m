@@ -39,14 +39,10 @@
 //    NSLog(@"frame  wh %1f %1f", self.frame.size.width, self.frame.size.height);
 }
 
-- (void)mouseDown:(NSEvent *)theEvent
+- (NSView *) hitTest:(NSPoint)aPoint
 {
-    [self.tableView mouseDown:theEvent];
+    return nil;
 }
 
-- (void)mouseUp:(NSEvent *)theEvent
-{
-    [self.tableView mouseUp:theEvent];
-}
 
 @end

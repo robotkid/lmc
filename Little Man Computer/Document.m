@@ -11,6 +11,9 @@
 #import "HighlightRingView.h"
 #import "NSView+Descriptive.h"
 
+#define LMCErrorDomain (@"org.muruk.lmc")
+
+
 @interface Document ()
 @property NSInteger inputNumber;
 @property HighlightRingView *highlight;
@@ -81,10 +84,105 @@
     // Insert code here to read your document from the given data of the specified type. If outError != NULL, ensure that you create and set an appropriate error when returning NO.
     // You can also choose to override -readFromFileWrapper:ofType:error: or -readFromURL:ofType:error: instead.
     // If you override either of these, you should also override -isEntireFileLoaded to return NO if the contents are lazily loaded.
-    NSException *exception = [NSException exceptionWithName:@"UnimplementedMethod" reason:[NSString stringWithFormat:@"%@ is unimplemented", NSStringFromSelector(_cmd)] userInfo:nil];
-    @throw exception;
+//    NSException *exception = [NSException exceptionWithName:@"UnimplementedMethod" reason:[NSString stringWithFormat:@"%@ is unimplemented", NSStringFromSelector(_cmd)] userInfo:nil];
+//    @throw exception;
+//    return YES;
+
+    BOOL readSuccess = NO;
+    
+    NSString *fileContents = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    
+    if (!fileContents && outError) {
+        *outError = [NSError errorWithDomain:NSCocoaErrorDomain
+                                        code:NSFileReadUnknownError userInfo:nil];
+    }
+    
+    if (fileContents) {
+        readSuccess = YES;
+        NSArray *lines = [fileContents componentsSeparatedByString:@"\n"];
+        NSInteger index = 0;
+        for (NSString *line in lines) {
+            if ([line length] == 0) {
+                continue;
+            }
+            
+            NSInteger location = 0;
+            NSInteger value = 0;
+
+            if (![self getLocation:&location andValue:&value fromLine:line]) {
+                readSuccess = NO;
+                break;
+            }
+            
+            if (location != 0) {
+                if (location < index) {
+                    readSuccess = NO;
+                    break;
+                }
+                else {
+                    index = location;
+                }
+            }
+
+            [self.lmc setValue:value atMemoryLocation:index];
+            index++;
+        }
+    }
+    
+    if (!readSuccess) {
+        if (outError != NULL) {
+            NSDictionary *info = @{
+                                   NSLocalizedDescriptionKey: NSLocalizedString(@"syntax error", nil),
+                                   NSLocalizedFailureReasonErrorKey: NSLocalizedString(@"not up to par", nil),
+                                   NSLocalizedRecoverySuggestionErrorKey: NSLocalizedString(@"ensure correct format", nil),
+                                   };
+            *outError = [NSError errorWithDomain:LMCErrorDomain code:1 userInfo:info];
+        }
+    }
+    
+    return readSuccess;
+}
+
+/**
+  * Returns YES if valid line and NO on a syntax error
+  * loc is unchanged if not present in the line
+  * value is set to the value in the line
+  * format is location:value
+  * location must be between 0 and 99 inclusive
+  * value must be between -999 and 999 inclusive
+ **/
+- (BOOL)getLocation:(NSInteger *)loc andValue:(NSInteger *)val fromLine:(NSString *)line
+{
+    NSInteger temploc;
+    NSInteger tempval;
+    
+    NSScanner *scanner = [NSScanner scannerWithString:line];
+    NSRange range = [line rangeOfString:@":"];
+
+    if (range.location != NSNotFound) {
+        if (![scanner scanInteger:&temploc]) {
+            // No integer at the beginning of the line - syntax error
+            return NO;
+        }
+        
+        [scanner scanString:@":" intoString:NULL];
+        
+        if (temploc < 0 || temploc > 99) {
+            return NO;
+        }
+        *loc = temploc;
+    }
+    
+    if (![scanner scanInteger:&tempval])
+        return NO;
+    
+    if (tempval < -999 || tempval > 999)
+        return NO;
+    
+    *val = tempval;
     return YES;
 }
+
 
 - (NSView *)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row
 {

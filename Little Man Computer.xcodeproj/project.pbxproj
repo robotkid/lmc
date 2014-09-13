@@ -21,11 +21,42 @@
 		3715C7201920F7BD002E5934 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3715C71E1920F7BD002E5934 /* InfoPlist.strings */; };
 		3715C7221920F7BD002E5934 /* Little_Man_ComputerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3715C7211920F7BD002E5934 /* Little_Man_ComputerTests.m */; };
 		3715C72D1920FC4B002E5934 /* LittleManComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3715C72C1920FC4B002E5934 /* LittleManComputer.m */; };
+		374B18611941C4550042D7C8 /* LMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374B18601941C4550042D7C8 /* LMC.swift */; };
 		377665351923ABFB00E00160 /* NSView+Descriptive.m in Sources */ = {isa = PBXBuildFile; fileRef = 377665341923ABFB00E00160 /* NSView+Descriptive.m */; };
+		378107751945E7DE00AAD4FB /* LMCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378107741945E7DE00AAD4FB /* LMCTestCase.swift */; };
+		3781077E1945ECE900AAD4FB /* LMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374B18601941C4550042D7C8 /* LMC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		3715C7191920F7BD002E5934 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3715C6E91920F7BC002E5934 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3715C6F01920F7BD002E5934;
+			remoteInfo = "Little Man Computer";
+		};
+		378107761945ECB600AAD4FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3715C6E91920F7BC002E5934 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3715C6F01920F7BD002E5934;
+			remoteInfo = "Little Man Computer";
+		};
+		378107781945ECB700AAD4FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3715C6E91920F7BC002E5934 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3715C6F01920F7BD002E5934;
+			remoteInfo = "Little Man Computer";
+		};
+		3781077A1945ECBD00AAD4FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3715C6E91920F7BC002E5934 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3715C6F01920F7BD002E5934;
+			remoteInfo = "Little Man Computer";
+		};
+		3781077C1945ECC100AAD4FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3715C6E91920F7BC002E5934 /* Project object */;
 			proxyType = 1;
@@ -59,8 +90,12 @@
 		3715C7211920F7BD002E5934 /* Little_Man_ComputerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Little_Man_ComputerTests.m; sourceTree = "<group>"; };
 		3715C72B1920FC4B002E5934 /* LittleManComputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LittleManComputer.h; path = Model/LittleManComputer.h; sourceTree = "<group>"; };
 		3715C72C1920FC4B002E5934 /* LittleManComputer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LittleManComputer.m; path = Model/LittleManComputer.m; sourceTree = "<group>"; };
+		374B185F1941C4550042D7C8 /* Little Man Computer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Little Man Computer-Bridging-Header.h"; sourceTree = "<group>"; };
+		374B18601941C4550042D7C8 /* LMC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMC.swift; sourceTree = "<group>"; };
 		377665331923ABFB00E00160 /* NSView+Descriptive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Descriptive.h"; sourceTree = "<group>"; };
 		377665341923ABFB00E00160 /* NSView+Descriptive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+Descriptive.m"; sourceTree = "<group>"; };
+		378107731945E7DD00AAD4FB /* Little Man ComputerTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Little Man ComputerTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		378107741945E7DE00AAD4FB /* LMCTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMCTestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +163,7 @@
 			children = (
 				3715C7061920F7BD002E5934 /* Document.h */,
 				3715C7071920F7BD002E5934 /* Document.m */,
+				374B18601941C4550042D7C8 /* LMC.swift */,
 				377665331923ABFB00E00160 /* NSView+Descriptive.h */,
 				377665341923ABFB00E00160 /* NSView+Descriptive.m */,
 				3715C7091920F7BD002E5934 /* Document.xib */,
@@ -138,6 +174,7 @@
 				3715C70C1920F7BD002E5934 /* MainMenu.xib */,
 				3715C70F1920F7BD002E5934 /* Images.xcassets */,
 				3715C6FB1920F7BD002E5934 /* Supporting Files */,
+				374B185F1941C4550042D7C8 /* Little Man Computer-Bridging-Header.h */,
 			);
 			path = "Little Man Computer";
 			sourceTree = "<group>";
@@ -159,6 +196,8 @@
 			children = (
 				3715C7211920F7BD002E5934 /* Little_Man_ComputerTests.m */,
 				3715C71C1920F7BD002E5934 /* Supporting Files */,
+				378107741945E7DE00AAD4FB /* LMCTestCase.swift */,
+				378107731945E7DD00AAD4FB /* Little Man ComputerTests-Bridging-Header.h */,
 			);
 			path = "Little Man ComputerTests";
 			sourceTree = "<group>";
@@ -204,6 +243,10 @@
 			);
 			dependencies = (
 				3715C71A1920F7BD002E5934 /* PBXTargetDependency */,
+				378107771945ECB600AAD4FB /* PBXTargetDependency */,
+				378107791945ECB700AAD4FB /* PBXTargetDependency */,
+				3781077B1945ECBD00AAD4FB /* PBXTargetDependency */,
+				3781077D1945ECC100AAD4FB /* PBXTargetDependency */,
 			);
 			name = "Little Man ComputerTests";
 			productName = "Little Man ComputerTests";
@@ -275,6 +318,7 @@
 				0F3E83BC1923441200E44F35 /* HighlightRingView.m in Sources */,
 				3715C7081920F7BD002E5934 /* Document.m in Sources */,
 				3715C7011920F7BD002E5934 /* main.m in Sources */,
+				374B18611941C4550042D7C8 /* LMC.swift in Sources */,
 				377665351923ABFB00E00160 /* NSView+Descriptive.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +327,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3781077E1945ECE900AAD4FB /* LMC.swift in Sources */,
+				378107751945E7DE00AAD4FB /* LMCTestCase.swift in Sources */,
 				3715C7221920F7BD002E5934 /* Little_Man_ComputerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +340,26 @@
 			isa = PBXTargetDependency;
 			target = 3715C6F01920F7BD002E5934 /* Little Man Computer */;
 			targetProxy = 3715C7191920F7BD002E5934 /* PBXContainerItemProxy */;
+		};
+		378107771945ECB600AAD4FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3715C6F01920F7BD002E5934 /* Little Man Computer */;
+			targetProxy = 378107761945ECB600AAD4FB /* PBXContainerItemProxy */;
+		};
+		378107791945ECB700AAD4FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3715C6F01920F7BD002E5934 /* Little Man Computer */;
+			targetProxy = 378107781945ECB700AAD4FB /* PBXContainerItemProxy */;
+		};
+		3781077B1945ECBD00AAD4FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3715C6F01920F7BD002E5934 /* Little Man Computer */;
+			targetProxy = 3781077A1945ECBD00AAD4FB /* PBXContainerItemProxy */;
+		};
+		3781077D1945ECC100AAD4FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3715C6F01920F7BD002E5934 /* Little Man Computer */;
+			targetProxy = 3781077C1945ECC100AAD4FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -415,11 +481,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Little Man Computer/Little Man Computer-Prefix.pch";
 				INFOPLIST_FILE = "Little Man Computer/Little Man Computer-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Little Man Computer/Little Man Computer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -428,11 +499,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Little Man Computer/Little Man Computer-Prefix.pch";
 				INFOPLIST_FILE = "Little Man Computer/Little Man Computer-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Little Man Computer/Little Man Computer-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -441,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Little Man Computer.app/Contents/MacOS/Little Man Computer";
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -453,7 +529,10 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Little Man ComputerTests/Little Man ComputerTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Little Man ComputerTests/Little Man ComputerTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -463,6 +542,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Little Man Computer.app/Contents/MacOS/Little Man Computer";
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -471,7 +551,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Little Man Computer/Little Man Computer-Prefix.pch";
 				INFOPLIST_FILE = "Little Man ComputerTests/Little Man ComputerTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Little Man ComputerTests/Little Man ComputerTests-Bridging-Header.h";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};

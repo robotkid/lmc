@@ -72,12 +72,29 @@
 
 - (NSData *)dataOfType:(NSString *)typeName error:(NSError **)outError
 {
-    // Insert code here to write your document to data of the specified type. If outError != NULL, ensure that you create and set an appropriate error when returning nil.
-    // You can also choose to override -fileWrapperOfType:error:, -writeToURL:ofType:error:, or -writeToURL:ofType:forSaveOperation:originalContentsURL:error: instead.
-    NSException *exception = [NSException exceptionWithName:@"UnimplementedMethod" reason:[NSString stringWithFormat:@"%@ is unimplemented", NSStringFromSelector(_cmd)] userInfo:nil];
-    @throw exception;
-    return nil;
+    NSMutableString *output = [[NSMutableString alloc] init];    
+    BOOL writeAddress = NO;
+    NSNumber *previous = nil;
+
+    for (int i = 0; i < [self.lmc size]; i++) {
+        NSNumber *value = self.lmc.memory[i];
+
+        if (previous && [value isEqualToNumber:previous]) {
+            writeAddress = YES;
+        }
+        else {
+            if (writeAddress) {
+                [output appendString:[NSString stringWithFormat:@"%d:", i]];
+                writeAddress = NO;
+            }
+            [output appendString:[NSString stringWithFormat:@"%d\n", [value intValue]]];
+        }
+        previous = value;
+    }
+    
+    return [output dataUsingEncoding:NSUTF8StringEncoding];
 }
+
 
 - (BOOL)readFromData:(NSData *)data ofType:(NSString *)typeName error:(NSError **)outError
 {

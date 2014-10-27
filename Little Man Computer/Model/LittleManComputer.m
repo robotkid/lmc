@@ -161,7 +161,7 @@ typedef NS_ENUM(NSInteger, lmcInstructions) {
             [self branchIfZero:args];
             break;
         case lmcInstructionBrp:
-            [self branchIfZeroOrPositive:args];
+            [self branchIfPositive:args];
             break;
         case lmcInstructionHlt:
             self.running = NO;
@@ -241,13 +241,17 @@ typedef NS_ENUM(NSInteger, lmcInstructions) {
     if (self.acc == 0) {
         self.pc = location;
     }
+    else
+        self.pc++;
 }
 
-- (void)branchIfZeroOrPositive:(NSUInteger)location
+- (void)branchIfPositive:(NSUInteger)location
 {
-    if (self.acc >= 0) {
+    if (self.acc > 0) {
         self.pc = location;
     }
+    else
+        self.pc++;
 }
 
 - (void)input
